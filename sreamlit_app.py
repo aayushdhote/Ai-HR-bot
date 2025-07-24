@@ -54,10 +54,16 @@ if st.session_state.step == 3:
             st.success(f"✅ Leave Approved. You have {balance - days} day(s) remaining.")
         else:
             st.error(f"❌ Rejected. You only have {balance} day(s) left.")
+        st.write("📋 *Your Leave Summary:*")
+        st.write(f"- *Name:* {st.session_state.name}")
+        st.write(f"- *Total Leaves:* {total}")
+        st.write(f"- *Used Leaves:* {used}")
+        st.write(f"- *Requested:* {days}")
+        st.write(f"- *Remaining:* {balance - days if days <= balance else balance}")
         st.session_state.step = 4
 
 if st.session_state.step == 4:
     if st.button("Start Over"):
         for key in ["step", "name", "reason", "leave_days"]:
             del st.session_state[key]
-        st.experimental_rerun()
+        st.rerun()
