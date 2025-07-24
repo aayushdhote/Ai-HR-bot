@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="AI Leave Request Bot", page_icon="🤖")
 
-st.title("🤖 AI Leave Request Bot")
+st.title("🤖 AI H.R. Bot")
 st.write("I'm here to help you apply for a leave. Let's get started!")
 
 @st.cache_data
