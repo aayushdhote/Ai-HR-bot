@@ -34,7 +34,7 @@ def create_pdf(name, total, used, days, balance, approved, reason):
     pdf.cell(200, 10, txt=f"Used Leaves: {used}", ln=True)
     pdf.cell(200, 10, txt=f"Requested: {days}", ln=True)
     pdf.cell(200, 10, txt=f"Remaining: {balance - days if approved else balance}", ln=True)
-    pdf.cell(200, 10, txt=f"Status: {'Approved ✅' if approved else 'Rejected ❌'}", ln=True)
+    pdf.cell(200, 10, txt=f"Status: {'Approved' if approved else 'Rejected'}", ln=True)
     pdf.multi_cell(200, 10, txt=f"Reason: {reason}")
     return pdf
 
@@ -42,7 +42,7 @@ def download_pdf_button(pdf):
     pdf.output("leave_summary.pdf")
     with open("leave_summary.pdf", "rb") as f:
         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-    href = f'<a href="data:application/octet-stream;base64,{base64_pdf}" download="Leave_Summary.pdf">📄 Download PDF Summary</a>'
+    href = f'<a href="data:application/octet-stream;base64,{base64_pdf}" download="Leave_Summary.pdf"> Download PDF Summary</a>'
     st.markdown(href, unsafe_allow_html=True)
 
 if st.session_state.step == 1:
