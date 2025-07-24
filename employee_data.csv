@@ -1,19 +1,19 @@
 Employee ID,Name,Total Leaves,Used Leaves,Team,Role
-1001,Abhishek_nagar,20,10,Advertisement,Chief Editor
-1002,Atul Mandloi,18,12,Marketing,Executive
-1003,Gaurav Jain,25,20,HR,Analyst
-1004,Aayush Dhote,22,8,Tech,Data Scientist
-1005,Aryan Prajapati,20,5,Finance,Accountant
-1006,Saloni Pal,24,16,Support,Engineer
-1007,Alisha Khan,18,6,HR,Executive
-1008,Daksh Joshi,25,10,Sales,Team Lead
-1009,Juhi Rajpal,20,3,Legal,Advisor
-1010,Samyak Jain,26,18,Marketing,Strategist
-1011,Yash Chandorkar,22,9,Finance,Analyst
-1012,Krishnakant Suryavanshi,20,7,Tech,Tester
-1013,Sonali Singh,25,15,HR,Recruiter
-1014,Sachin Chauhan,21,11,Operations,Coordinator
-1015,Divyam Panchal,19,4,Support,Executive
+1001,Abhishek,20,10,Advertisement,Chief Editor
+1002,Atul,18,12,Marketing,Executive
+1003,Gaurav,25,20,HR,Analyst
+1004,Aayush,22,8,Tech,Data Scientist
+1005,Aryan,20,5,Finance,Accountant
+1006,Saloni,24,16,Support,Engineer
+1007,Alisha,18,6,HR,Executive
+1008,Daksh,25,10,Sales,Team Lead
+1009,Juhi,20,3,Legal,Advisor
+1010,Samyak,26,18,Marketing,Strategist
+1011,Yash,22,9,Finance,Analyst
+1012,Krishnakant,20,7,Tech,Tester
+1013,Sonali,25,15,HR,Recruiter
+1014,Sachin,21,11,Operations,Coordinator
+1015,Divyam,19,4,Support,Executive
 1016,Amit,20,8,Legal,Associate
 1017,Komal,22,13,Sales,Executive
 1018,Raj,24,10,Tech,Engineer
