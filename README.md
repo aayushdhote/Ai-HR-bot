@@ -4,7 +4,7 @@ An interactive AI-powered HR chatbot built with Streamlit that helps employees a
 
 🔍 Overview
 
-This bot streamlines the leave application process by:
+This bot streamlines the leave applications process by:
 
 Interacting with users in a conversational style.
 
