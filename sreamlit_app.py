@@ -106,3 +106,4 @@ if st.session_state.step == 4:
         for key in ["step", "name", "reason", "leave_days"]:
             del st.session_state[key]
         st.rerun()
+
