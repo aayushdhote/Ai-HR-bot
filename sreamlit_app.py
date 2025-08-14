@@ -25,6 +25,7 @@ if "reason" not in st.session_state:
 if "leave_days" not in st.session_state:
     st.session_state.leave_days = 0
 
+
 def create_pdf(name, total, used, days, balance, approved, reason):
     pdf = FPDF()
     pdf.add_page()
