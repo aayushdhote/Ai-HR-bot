@@ -3,7 +3,6 @@ import pandas as pd
 from fpdf import FPDF
 import base64
 
-
 st.set_page_config(page_title="AI Leave Request Bot", page_icon="🤖")
 
 st.title("🤖 AI H.R. Bot")
@@ -12,7 +11,6 @@ st.write("I'm here to help you apply for a leave. Let's get started!")
 @st.cache_data
 def load_data():
     return pd.read_csv("employee_data.csv")
-
 
 df = load_data()
 
