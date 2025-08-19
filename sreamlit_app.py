@@ -11,7 +11,7 @@ st.write("I'm here to help you apply for a leave. Let's get started!")
 @st.cache_data
 def load_data():
     return pd.read_csv("employee_data.csv")
-
+    
 df = load_data()
 
 if "step" not in st.session_state:
