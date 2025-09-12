@@ -2,6 +2,7 @@
 
 An interactive AI-powered HR chatbot built with Streamlit that helps employees apply for leave and download a PDF summary of their leave request.
 
+
 🔍 Overview
 
 This bot streamlines the leave application process by:
