@@ -3,6 +3,7 @@ import pandas as pd
 from fpdf import FPDF
 import base64
 
+
 st.set_page_config(page_title="AI Leave Request Bot", page_icon="🤖")
 
 st.title("🤖 AI H.R. Bot")
